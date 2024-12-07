@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package org.example;
+
+message ContactProto {
+  string name = 1;
+  string phonenumber = 2;
+  bytes photo = 3;
+}
